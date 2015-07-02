@@ -27,10 +27,17 @@
 	  	    display: block;	
 	  	    width: 100%;
 	  	    vertical-align: middle;
+	  	    clear: both;
 		}
 
 		#footer > h6 { line-height: 150%; }
 		
+		footer { 
+			display: block;
+			width: 100%;
+			clear: both;
+		}
+
 		h2, a { 
 			font-family: Arial; 
 			color: #fff; 
@@ -39,7 +46,7 @@
 
 		h6 { font-size: 18px; }
 
-		h2, h6, h4, h5 { 
+		h2, h6, h4 { 
 			text-align: center; 
 			line-height: 150%;
 			margin: 0;
@@ -48,6 +55,8 @@
 		h5 { 
 			font-size: 20px;
 			margin: 0;
+			text-align: left;
+			line-height: 150%;	
 		}
 		a { 
 			display: inline-block;
@@ -56,15 +65,16 @@
 
 		h3, h4 { 
 			font-size: 25px;
+			font-weight: lighter;			
+			text-align: center;
 		}
 
+		h3 { width: 70%; }
+
 		h3, h4, h5 { 
-			color: #696969; 
-			font-weight: lighter;
-			width: 70%;
+			color: #696969;		
 			margin: auto;
-			font-style: italic;	
-			text-align: center;
+			font-style: italic;				
 		}
 
 		.bg {
@@ -102,7 +112,8 @@
 			height: 550px;
 			overflow: hidden;
   		    box-shadow: 5px 5px 5px #888888;
-			margin: 10px auto;
+  		    float: left;
+			margin: 20px 20px 30px 20px;
 		}
 
 		#sliderImages {
@@ -195,3 +206,4 @@
 			margin: 0;
 			line-height: 150%;
 		}
+		a.contact { color: #000; }
